@@ -30,3 +30,11 @@ guard let myString = myOptionalString, !myString.isEmpty else {
     return
 }
 ```
+
+#### View Controller
+
+##### Comparing view controller
+```
+if(vc is UIViewController)
+if(vc === viewController)
+```
