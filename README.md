@@ -10,6 +10,12 @@ This is an iOS Programming Cheat Sheet for a quick developers reference for the 
 ```
 
 #### Swift
+
+#### Initializations
+```
+var stringArray = [String]()
+```
+
 ##### Non-Optional
 ```
 let myString: String = ""
