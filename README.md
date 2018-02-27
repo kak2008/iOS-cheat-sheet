@@ -57,9 +57,9 @@ cast.sorted {$0.count < $1.count})  // Ascending(count) -> output : ["Kim", "Kar
 Returns an array containing the results of mapping the given closure over the sequence's elements.
 ```
 var numbers = [20, 19, 7, 12]
-let cast = ["Vivien", "Marlon", "Kim", "Karl"]
-cast.map { $0.lowercased() }        // Lower cased  -> output : ["vivien", "marlon", "kim", "karl"]
-cast.map { $0.uppercased() }        // Upper cased  -> output : ["VIVIEN", "MARLON", "KIM", "KARL"]
+let cast = ["Vivien", "Marlon", "Kim1@", "Karl"]
+cast.map { $0.lowercased() }        // Lower cased  -> output : ["vivien", "marlon", "kim1@", "karl"]
+cast.map { $0.uppercased() }        // Upper cased  -> output : ["VIVIEN", "MARLON", "KIM1@", "KARL"]
 cast.map { $0.count }               // Count        -> output : [6, 6, 3, 4]
 cast.map({ number in number * 30 }) // Multiply     -> output : [600, 570, 210, 360]
 ```
