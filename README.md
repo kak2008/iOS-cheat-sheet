@@ -45,7 +45,7 @@ numbers.sorted { $0 < $1 }          // Ascending        -> output : [7, 12, 19, 
 numbers.sorted { $0 > $1 }          // Descending       -> output : [20, 19, 12, 7]
 cast.sorted {$0.count < $1.count})  // Ascending(count) -> output : ["Kim", "Karl", "Vivien", "Marlon"]
 ```
-##### Map [Apple Doc](https://developer.apple.com/documentation/swift/array/2908681-map)
+##### Map [Apple Doc](https://developer.apple.com/documentation/swift/array/2908681-map) [LearnAppMaking](https://learnappmaking.com/map-reduce-filter-swift-programming/)
 Returns an array containing the results of mapping the given closure over the sequence's elements.
 ```
 var numbers = [20, 19, 7, 12]
