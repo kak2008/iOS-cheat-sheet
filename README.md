@@ -5,6 +5,8 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 
 #### Initializations
 ```
+let myString: String = ""
+let myOptionalString: String? = nil
 var stringArray = [String]()
 ```
 
