@@ -1,13 +1,5 @@
 # iOS-cheat-sheet
-This is an iOS Programming Cheat Sheet for a quick developers reference for the syntax verification. Syntax programming languages include Swift and Objective C.
-
-## String
-
-#### Objective C
-
-```
-[string length] == 0 
-```
+This is an iOS Swift Programming Cheat Sheet for a quick reference for developers for the syntax verification.
 
 #### Swift
 
