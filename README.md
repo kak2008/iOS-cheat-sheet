@@ -44,3 +44,10 @@ guard let myString = myOptionalString, !myString.isEmpty else {
 if(vc is UIViewController)
 if(vc === viewController)
 ```
+
+##### Sorting
+```
+var numbers = [20, 19, 7, 12]
+numbers.sorted { $0 < $1 } // Ascending     -> output   : [7, 12, 19, 20] 
+numbers.sorted { $0 > $1 } // Descending    -> output   : [20, 19, 12, 7]
+```
