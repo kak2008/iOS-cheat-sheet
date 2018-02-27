@@ -60,6 +60,6 @@ var numbers = [20, 19, 7, 12]
 let cast = ["Vivien", "Marlon", "Kim1@", "Karl"]
 cast.map { $0.lowercased() }        // Lower cased  -> output : ["vivien", "marlon", "kim1@", "karl"]
 cast.map { $0.uppercased() }        // Upper cased  -> output : ["VIVIEN", "MARLON", "KIM1@", "KARL"]
-cast.map { $0.count }               // Count        -> output : [6, 6, 3, 4]
+cast.map { $0.count }               // Count        -> output : [6, 6, 5, 4]
 cast.map({ number in number * 30 }) // Multiply     -> output : [600, 570, 210, 360]
 ```
