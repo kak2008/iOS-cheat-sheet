@@ -8,6 +8,7 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 let myString: String = ""
 let myOptionalString: String? = nil
 var stringArray = [String]()
+let width = 94
 ```
 
 ##### Non-Optional
