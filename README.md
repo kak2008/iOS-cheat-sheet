@@ -10,7 +10,7 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 
 *** Type Annotation - The kind of values the variable can store  
 var varFloat: Float = 2.034       -> Type Annotation 
-var stringArray = [String]()      -> Type Inference
+var stringArray = [String]()      -> Type Annotation
 
 *** Type Inference - Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide. 
 var varInt = 42                   -> Type Inference 
