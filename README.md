@@ -7,11 +7,12 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 ```
 // Variables
 
-var varFloat: Float = 2.034       -> Type Annotation [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html)
+*** Type Annotation - The kind of values the variable can store [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html)
+var varFloat: Float = 2.034       -> Type Annotation 
 
-*** Type Inference - Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide.
+*** Type Inference - Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide. [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html#//apple_ref/swift/grammar/type-inheritance-list)
 
-var varInt = 42                   -> Type Inference [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html#//apple_ref/swift/grammar/type-inheritance-list)
+var varInt = 42                   -> Type Inference 
 var varSwift = "Godzilla"         -> Type Inference
 var varDouble = 3.14159           -> Type Inference
 var stringArray = [String]()      -> Type Inference
