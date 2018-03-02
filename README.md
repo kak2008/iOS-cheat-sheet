@@ -5,14 +5,14 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 
 #### Variables/Constants
 ```
-##### Variables
+// Variables
 var varInt = 42
 var varFloat: Float = 2.034
 var varSwift = "Godzilla"
 var varDouble = 3.14159
 var stringArray = [String]()
 
-##### Constants
+// Constants
 let myString: String = ""
 let myOptionalString: String? = nil
 let width = 94
