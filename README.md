@@ -6,16 +6,22 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 #### Variables/Constants
 ```
 // Variables
-var varInt = 42
-var varFloat: Float = 2.034
-var varSwift = "Godzilla"
-var varDouble = 3.14159
-var stringArray = [String]()
+
+var varFloat: Float = 2.034       -> Type Annotation [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html)
+
+*** Type Inference - Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide.
+
+var varInt = 42                   -> Type Inference [AppleDoc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html#//apple_ref/swift/grammar/type-inheritance-list)
+var varSwift = "Godzilla"         -> Type Inference
+var varDouble = 3.14159           -> Type Inference
+var stringArray = [String]()      -> Type Inference
 
 // Constants
+let width = 94
 let myString: String = ""
 let myOptionalString: String? = nil
-let width = 94
+let someArray: Array<String> = ["Alex", "Brian", "Dave"]
+let someArray: [String] = ["Alex", "Brian", "Dave"]
 ```
 
 #### View Controller
