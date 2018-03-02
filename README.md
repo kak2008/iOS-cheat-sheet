@@ -3,33 +3,16 @@ This is an iOS Swift Programming Cheat Sheet for a quick reference for developer
 
 #### Swift
 
-#### Initializations
+#### Variables
 ```
+var varInt = 42
+var varFloat: Float = 2.034
+var varSwift = "Godzilla"
+var varDouble = 3.14159
 let myString: String = ""
 let myOptionalString: String? = nil
-var stringArray = [String]()
 let width = 94
-```
-
-##### Non-Optional
-```
-let myString: String = ""
-
-if myString.isEmpty {
-    print("String is empty.")
-    return 
-}
-
-```
-##### Optional
-
-```
-let myOptionalString: String? = nil
-
-guard let myString = myOptionalString, !myString.isEmpty else {
-    print("String is nil or empty.")
-    return
-}
+var stringArray = [String]()
 ```
 
 #### View Controller
