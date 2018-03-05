@@ -28,7 +28,9 @@ let someArray: [String] = ["Alex", "Brian", "Dave"]
 #### Literals
 ```
 // String : A string of characters which are enclosed in double quotes.
-Eg: "hello world" , "USA", "India"
+let word = "hello world"    ; print(word)         // String Literal                               -> output : "hello world" 
+let ñ: Unicode.Scalar = "ñ" ; print(ñ)            // ExpressibleByUnicodeScalarLiteral            -> output : "ñ"
+let snowflake: Character = "❄︎" ; print(snowflake) // ExpressibleByExtendedGraphemeClusterLiteral  -> output : "❄︎"
 
 // Numerical 
 Eg: 
