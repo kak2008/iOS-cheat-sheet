@@ -33,7 +33,7 @@ if(vc is UIViewController)
 if(vc === viewController)
 ```
 
-##### Sorting
+##### Sorting ([AppleDoc](https://developer.apple.com/documentation/foundation/data/2292856-sort))
 ```
 var numbers = [20, 19, 7, 12]
 let cast = ["Vivien", "Marlon", "Kim", "Karl"]
