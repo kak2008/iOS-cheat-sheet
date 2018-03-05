@@ -25,7 +25,7 @@ let someArray: Array<String> = ["Alex", "Brian", "Dave"]
 let someArray: [String] = ["Alex", "Brian", "Dave"]
 ```
 
-#### Literals ([String]https://developer.apple.com/documentation/swift/expressiblebystringliteral)
+#### Literals ([String](https://developer.apple.com/documentation/swift/expressiblebystringliteral))
 ```
 // String : A string of characters which are enclosed in double quotes.
 let word = "hello world"    ; print(word)         // String Literal                               -> output : "hello world" 
