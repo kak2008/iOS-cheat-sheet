@@ -25,6 +25,18 @@ let someArray: Array<String> = ["Alex", "Brian", "Dave"]
 let someArray: [String] = ["Alex", "Brian", "Dave"]
 ```
 
+#### Literals
+```
+// String : A string of characters which are enclosed in double quotes.
+Eg: "hello world" , "USA", "India"
+
+// Numerical 
+Eg: 
+var binaryNumber  = 0b1100             // Binary           -> output : 12  
+var hexaNumber    = 0xC                // Hexa Decimal     -> output : 12 
+var OctalNumber   = 0o14               // Octal Decimal    -> output : 12 
+```
+
 #### View Controller
 
 ##### Comparing view controller
