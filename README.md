@@ -37,6 +37,15 @@ Eg:
 var binaryNumber  = 0b1100             // Binary           -> output : 12  
 var hexaNumber    = 0xC                // Hexa Decimal     -> output : 12 
 var OctalNumber   = 0o14               // Octal Decimal    -> output : 12 
+
+// Image
+Eg:
+#imageLiteral(resourceName: "Icon")
+
+// Color
+Eg:
+#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.77)
+
 ```
 
 #### View Controller
