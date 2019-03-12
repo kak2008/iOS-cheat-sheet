@@ -75,3 +75,42 @@ cast.map { $0.uppercased() }        // Upper cased  -> output : ["VIVIEN", "MARL
 cast.map { $0.count }               // Count        -> output : [6, 6, 5, 4]
 cast.map({ number in number * 30 }) // Multiply     -> output : [600, 570, 210, 360]
 ```
+
+##### Recursive Enumerations ([AppleDoc](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html))
+A recursive enumeration is an enumeration that has another instance of the enumeration as the associated value for one or more of the enumeration cases. You indicate that an enumeration case is recursive by writing indirect before it, which tells the compiler to insert the necessary layer of indirection.
+```
+indirect enum ArithmeticNumbers {
+    case number(Int)
+    case addition(ArithmeticNumbers, ArithmeticNumbers)
+    case multiplication(ArithmeticNumbers, ArithmeticNumbers)
+}
+
+func evaluate(_ expression: ArithmeticNumbers) -> Int {
+    switch expression {
+    case let .number(value):
+        return value
+    case let .addition(firstValue, secondValue):
+        return evaluate(firstValue) + evaluate(secondValue)
+    case let .multiplication(firstValue, secondValue):
+        return evaluate(firstValue) * evaluate(secondValue)
+    }
+}
+
+let num = ArithmeticNumbers.number(5)
+print(num)
+
+print(evaluate(ArithmeticNumbers.number(5)))
+
+let addNums = evaluate(ArithmeticNumbers.addition(ArithmeticNumbers.number(5), ArithmeticNumbers.number(5)))
+print(addNums)
+
+let multi = evaluate(ArithmeticNumbers.multiplication(ArithmeticNumbers.number(5), ArithmeticNumbers.number(5)))
+print(multi)
+
+OUTPUT:
+number(5)
+5
+10
+25
+
+```
