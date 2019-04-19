@@ -114,3 +114,10 @@ number(5)
 25
 
 ```
+
+##### Mark down for swift snippet
+
+```swift
+let isEnabled = (somevalue == 1)
+view.isHidden = isEnabled
+```
